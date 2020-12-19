@@ -5,6 +5,7 @@ THREADS=$(nproc)
 CMD="poca -c /usr/share/config/poca -t ${THREADS}"
 
 docker run -t -i \
+	--rm \
 	-v $(pwd)/podcasts:/podcasts \
 	-v $(pwd)/poca_config:/usr/share/config/poca \
 	"${IMAGE_NAME}" \
