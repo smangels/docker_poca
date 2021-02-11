@@ -43,7 +43,7 @@
     <subscription category="Children">
       <title>Ohrenbär</title>
       <url>https://www.ohrenbaer.de/podcast/podcast.feed.podcast.xml</url>
-      <max_number>20</max_number>
+      <max_number>50</max_number>
       <metadata>
         <genre>Podcast</genre>
         <artist>WDR</artist>
