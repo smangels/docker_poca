@@ -55,21 +55,5 @@
         <episode_title/>
       </rename>
     </subscription>
-    <subscription category="Programming">
-      <title>PythonBytes</title>
-      <url>https://pythonbytes.fm/episodes/rss</url>
-      <max_number>20</max_number>
-      <metadata>
-        <genre>Podcast</genre>
-        <artist>Michael Kennedy and Brian Okken</artist>
-        <album>PythonBytes</album>
-        <website>https://www.ohrenbaer.de/</website>
-      </metadata>
-      <rename divider="_" space="_">
-        <date/>
-        <title/>
-        <org_name/>
-      </rename>
-    </subscription>
   </subscriptions>
 </poca>
