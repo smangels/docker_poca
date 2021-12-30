@@ -8,6 +8,6 @@ RUN apk add --virtual .build-deps \
 
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install setuptools wheel
-RUN python3 -m pip install poca
+RUN python3 -m pip install poca==1.1
 RUN apk del .build-deps
 
