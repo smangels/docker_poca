@@ -25,6 +25,7 @@ fi
 
 cp poca.xml	${PWD}/poca_config/.
 
+echo "==> start downloading MP3"
 docker run -t -i \
 	--rm \
 	-u $(id -u):$(id -g) \
