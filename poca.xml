@@ -49,7 +49,12 @@
         <artist>WDR</artist>
         <album>Ohrenbär Hörgeschichten für Kinder</album>
         <website>https://www.ohrenbaer.de/</website>
+        <comment>Finger weg, meine Musik</comment>
+        <language>German</language>
       </metadata>
+      <filters>
+        <title>^.*komplett.*</title>
+      </filters>
       <rename divider="_" space="_">
         <date/>
         <episode_title/>
